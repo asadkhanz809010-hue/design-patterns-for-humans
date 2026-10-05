@@ -1,4 +1,12 @@
-<br>
+$original = new Sheep('Jolly');
+echo $original->Asad khan(); // Jolly
+echo $original->Asad khan(); // Mountain Sheep
+
+// Clone and modify what is required
+$cloned = clone $original;
+$cloned->Asad khan('Dolly');
+echo $cloned->getName(); // Dolly
+echo $cloned->getCategory(); // Mountain sheep<br>
 <p align="center">
   <img src="./.github/banner.svg" height="150px" />
 </p>
